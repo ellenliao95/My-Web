@@ -1,0 +1,224 @@
+html, body{
+    margin: 0;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+.top-logo h2{
+    color: skyblue;
+    margin: 12px;
+}
+li{
+    list-style: none;
+    padding: 0 10px;
+}
+.top-logo span{
+    color: #669bbc;
+    font-weight: 800;
+}
+
+.bg-container h2{
+    color: #ddb892;
+}
+.top-container li{
+    color: #212529;
+    font-weight: 550;
+    padding-right: 20px;
+   
+}
+.top-head{
+    display: flex;
+    justify-content: space-between; 
+}
+.top-logo{
+    display: flex;
+    margin: 10px 20px;
+    
+}
+.isMe{
+    width: 50px;
+}
+.top-container{
+    display: flex;
+    margin: auto 0;
+}
+
+/*background*/
+.head-bg{
+    background-image: url("/img/DSC08594.jpg");
+    background-size: cover;
+    opacity: 0.7; /*淡化背景*/ 
+    overflow: hidden;
+    text-align: center;
+    
+}
+.bg-container{
+    color: #f6fff8;
+    line-height: 1.2;/*間距*/
+    margin-bottom: 80px;
+
+}
+.bg-container h5{
+    font-size: 50px;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+.bg-container h2{
+    font-size: 40px;
+}
+.bg-container p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.text-layout{
+    margin-bottom: 0.5rem;
+    margin-top: 80px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+.icon-layout{
+    cursor: pointer;/*光標變手指*/
+    width: 25px; /* icons size */
+    margin-bottom: 20px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.btn-layout{
+    padding: 15px 25px; 
+    background-color: #ddb892;
+    border-radius: 5px;
+    color: #7f5539;
+    font-weight: 550;
+    margin-top: 20px;
+    cursor:pointer;
+    text-decoration: none;
+    margin: 20px 10px;
+    display: inline-block;
+
+}
+.resume{
+    display: flex;
+    margin: 60px;
+}
+.resume-me{
+    width: 300px;
+    border: 10px solid white;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+}
+.resume-text{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block; 
+}
+.resume-about ul {
+    padding: 0;
+}
+.resume-about li {
+    padding: 10px 0;
+}
+.resume-pro-title{
+    font-weight: bolder;
+    width: 120px; /*控制title的寬度來達到把detail 起始位置放在同一行*/
+    display: inline-block;/*與上述搭配使用*/
+}
+.whatIDo{
+    padding: 60px 60px 60px 0;
+    padding-bottom: 90px;
+    text-align: center;
+    background: #e9ecef;
+}
+
+.wid-row{
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+    flex-wrap: wrap;
+}
+.wid-container{
+    background: white;
+    text-align: center;
+    padding: 30px 40px;
+    margin: 10px 10px;
+    flex: 0 0 15%;
+}
+.wid-container p{
+    margin: auto;
+
+}
+.icon-size{
+    width: 100px;
+}
+.wid-container:hover{
+    transform: rotateY(-20px);
+    box-shadow: 1px 1px 4px;
+}
+/* 交叉
+first page color: #f8f9fa 
+next color: #dee2e6 
+*/
+
+/* part4 area */
+
+.timeline{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.part4-icon{
+    font-family: simple-line-icons;
+}
+.x-line{
+    border: 1px solid #e9ecef;
+    margin-right: 20px;
+}
+.timeline{
+    padding: 60px;
+}
+.content{
+    max-width: 80%;
+    padding: 1px 20px;
+    background-color: #e9ecef;
+    margin: 15px ;
+    border-radius: 8px;
+}
+.content h4{
+    margin: 12px 0;
+}
+.content, h6, h5, p{
+    margin: 13px 0;
+}
+
+.title{
+    position: relative;
+}
+
+/*timeline dot*/
+.title::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    left: -48px;
+    background: white;
+    border-radius: 999px;
+    border: 2px solid #a3cef1;
+    position: absolute;
+}
+
+/* Part 5 */
+.connect{
+    background: #dee2e6;
+}
+
+.row{
+    display: flex;
+
+
+}
+
+
+
