@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/bfa4f8339b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Orbitron:wght@800&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
 </head>
 <body>
     <head>
@@ -18,71 +20,65 @@
                     class = "isMe"
                     src="/img/me-icon.png" 
                     alt="isMe">
-                <h2>Meet<span>Me</span>
-                </h2>
+                <a id="Home" href="#Home">
+                    <h2>
+                        Meet<span>Me</span>
+                    </h2>
+                </a>
             </div>
             <div class="top-container">
-                <li>HOME</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Resume</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li class = "top-container">
+                    |
+                </li>
+                <li>
+                    <a href="#Resume">Resume</a>
+                </li>
+                <li class = "top-container">
+                    |
+                </li>
+                <li>
+                    <a href="#Experience">Project
+                    </a>
+                </li>
+                <li class = "top-container">
+                    |
+                </li>
+                <li>
+                    <a href="#Contact">Contact
+                    </a>
+                </li>
             </div>
         </div>
+    </head>
+    <main>
         <div class="head-bg" id="head-bg">
             <div class="bg-container">
                 <h5 class="text-layout">Hi This is</h5>
                 <h2>YingChu Liao</h2>
-                <p class="text-layout">Front-end Web Develop | Photographer</p>
-                <ul class="icon-container">
-                    <li>
-                        <a href="https://www.facebook.com/">
-                            <img src="/img/FB.png" alt="Fb icon" class="icon-layout">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/">
-                            <img src="/img/IG.png" alt="IG icon" class="icon-layout">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/">
-                            <img src="/img/google.png" alt="Google icon" class="icon-layout">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/">
-                            <img src="/img/linkedin.png" alt="linkedin icon" class="icon-layout">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/?lang=en">
-                            <img src="/img/Twitter.png" alt="Twitter icon" class="icon-layout">
-                        </a>
-                    </li>
-                </ul>
-                <a href="http://127.0.0.1:5502/index.html" class="btn-layout">
-                <i class="las la-file-alt"></i>
-                Get A Free Quote</a>
+                <p class="text-layout">
+                    Front-end Web Develop | Photographer
+                </p>
             </div>
-
         </div>
-    </head>
-</body>
+    </main>
+
 <main class="resume">
     <div class="resume-img">
         <img src="img/DSC01323.JPG" alt="Me" class="resume-me">
     </div>
-    <div class="resume-text">
+    <div class="resume-text" id="About">
         <h3>Hi Guys!</h3>
-        <p>Welcome to my home page, which tells you, who am I, what do I like to do, what have I done and my resume</p>
+        <p>Welcome to my home page, which tells you, who am I, what cloud I do, and what have I done</p>
     <div class="resume-about">
         <ul>
             <li>
-                <span class="resume-pro-title">Name:
+                <span class="resume-pro-title" >Name:
                 </span> 
-                <span class="resume-pro-detail">YingChu Liao</span>
+                <span class="resume-pro-detail"
+                >YingChu Liao</span>
             </li>
             <li>
                 <span class="resume-pro-title">Experience:</span>
@@ -93,22 +89,32 @@
                 <span class="resume-pro-detail">Seattle</span>
             </li>
             <li>
-                <span class="resume-pro-title">Email: </span>
-                <span class="resume-pro-detail">email@email.com</span>
-            </li>
-            <li>
-                <span class="resume-pro-title">Photo:</span>
-                <span class="resume-pro-detail">101-123-4321</span>
+                <span class="resume-pro-title">
+                    <i 
+                        class="fa-brands fa-linkedin fa-xl" style="color: #3059a1;">
+                    </i>
+                    <a 
+                        href="https://www.linkedin.com/" class="icon-layout">Linkedin
+                    </a>
+                </span>
+                <span class="resume-pro-title">
+                    <i 
+                        class="fa-brands fa-github fa-xl" 
+                        style="color: #3059a1;"> 
+                    </i>
+                    <a href="https://github.com/ellenliao95 "  class="icon-layout">Github
+                    </a>
+                </span>
             </li>
         </ul>
-        <a href="http://127.0.0.1:5502/index.html" class="btn-layout" >
-        <i class="las la-download"></i>
+        <a href="https://drive.google.com/file/d/1Y7Z5MmWDMyPeGDm7DH7mBRpmlrpyfSkL/view?usp=share_link" class="btn-layout"  target="_blank">
+        <i class="fa-regular fa-circle-down fa-s"></i>
         Download Resume
-        </a>
-        <a href="http://127.0.0.1:5502/index.html" class="btn-layout">
-        <i class="las la-phone"></i>
-        Connect Me</a>
-
+        </a> 
+        <a href="mailto:Ellenliao95@gmail.com?"
+        class="btn-layout">
+        <i class="fa-regular fa-envelope fa-sm"></i>
+        Email Me</a>
     </div>
     </div>
 </main>
@@ -116,27 +122,39 @@
 <h1>What I Also Do</h1>
 <div class="wid-row">
     <div class="wid-container">
+        <a href="https://github.com/ellenliao95" target="_blank">
         <img src="https://cdn.icon-icons.com/icons2/2110/PNG/512/development_icon_131032.png" alt="Front-End Develop icon" class="icon-size">
+        <!-- <i class="fa-solid fa-laptop-code fa-2xl"></i> -->
         <h3>
-            <a href="https://codepen.io/your-work/?cursor=ZD0wJm89MSZwPTEmdj02Mjk0MDM0MA==">Front-End Development</a>
+            Front-End Development
         </h3>
-        <p>Welcome to my portfolio, take a look at what i've done!</p>
+        <p>Welcome to see my Github, I am leaning HTML, CSS and JS now. </p>
+        </a>
     </div>
     <div class="wid-container">
+        <a 
+            href="https://500px.com/p/ellenliao95" target="_blank">
         <img src="https://icon-library.com/images/photography-icon/photography-icon-14.jpg" alt="Photographer icon" class="icon-size">
-
-        <h3><a href="https://500px.com/p/ellenliao95">Photographer</a></h3>
-        <p>Welcome to my photography website, I like photography, and use a different Angle, to discover the beauty of the world.</p>
+        <h3>
+            Photographer
+        </h3>
+        <p>Welcome to my photography website, I like to take a photo, and use a different Angle, to discover the beauty of the world.</p>
+        </a>
     </div>
-    <div class="wid-container">
+    <!-- <div class="wid-container">
         <img src="https://images.squarespace-cdn.com/content/v1/591d5e7f1e5b6cb773a73907/1501918525057-WS5LEV33VQ6Q931MQGS4/image-asset.png?format=1000w" alt="Psychological counseling icon" class="icon-size">
         <h3>Psychological counseling</h3>
         <p>I also like psychology, like to understand the relationship between people, what makes me now and people with different personalities, there will be my psychological counseling, my story and ideas.</p>
-    </div>
+    </div> -->
+    <!--Billing a live web, also logecal -->
     <div class="wid-container">
-        <img src="https://cdn4.iconfinder.com/data/icons/female-backpacker-backpacking-explorer/370/girl-explorer-1-1024.png" alt="Outdoor icon" class="icon-size">
-        <h3>Outdoor</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, aliquid.</p>
+        <a href="http://127.0.0.1:5502/page%202/index.html" target="_blank">
+            <img src="img/Website icon.png" alt="Website-icon"class="icon-size">
+            <h3>Live Web</h3>
+            <p>working on it. 
+            Please coming to see what I build. 
+            </p>
+        </a>
     </div>
 </div>
 </main>
@@ -148,67 +166,102 @@
                 <div class="content">
                     <h4 class="title">Bootcamp 
                     </h4>
-                    <h6>2022 - Present</h6>
-                    <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h6>
+                        <i class="fa-solid fa-calendar-days fa-sm" style="color: #687fa6;"></i>
+                        Aug 2022 - Present
+                    </h6>
+                    <h6>
+                        <i class="fa-solid fa-location-dot fa-sm" style="color: #687fa6;"></i>
+                        Seattle
+                    </h6>
+                    <p>I am learning HTML, CSS, JavaScript and React
+                    </p>
                 </div>
                 <div class="content">
-                    <h4 class="title">Ling Tung University in Taiwan
-                    </h4>
-                    <h6>2013 - 2017</h6>
-                    <h5>BA in Finance</h5>
-                    <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                </div>
-                <div class="content">
-                    <h4 class="title">Secondary School - Labratory High School</h4>
-                    <h6>2005 - 2010</h6>
-                    <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h4 class="title">Ling Tung University </h4>
+                    <h6>
+                        <i class="fa-solid fa-graduation-cap fa-2xs" style="color: #687fa6;"></i>
+                        Finance and risk management</h6>
+                    <h6>
+                        <i class="fa-solid fa-calendar-days fa-sm" style="color: #687fa6;"></i>
+                        2013 - 2017</h6>
+                    <h6>
+                        <i class="fa-solid fa-location-dot fa-sm" style="color: #687fa6;"></i>
+                        Taiwan
+                    </h6>
+                    <p>
+                        ???
+                    </p>
                 </div>
             </div>
             <div class="x-line"></div>
             <div class="timeline-right">
-                <h2 class="timeline-title">Experience</h2>
+            <!--簡歷資料放這裡-->
+                <h2 
+                id="Experience"
+                class="timeline-title">Experience</h2>
                 <div class="content">
-                    <h4 class="title">Art Director - Tesla Inc.</h4>
-                    <h6>Jan 2018 - Present</h6>
-                    <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                </div>
-                <div class="content">
-                    <h4 class="title">UX/UI Designer - Samsung
+                    <h4 class="title">
+                        Boot Camp Instructor 
                     </h4>
-                    <h6>Nov 2016 - Dec 2017</h6>
-                    <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
-                </div>
-                <div class="content">
-                    <h4 class="title">Intern UI Designer - Templates
-                    </h4>
-                    <h6>Mar 2015 - Oct 2016
+                    <h6>
+                        <i class="fa-solid fa-building fa-2xs" style="color: #687fa6;"></i>
+                        Scrimba
+                    </h6>
+                    <h6>
+                        <i class="fa-solid fa-calendar-days fa-sm" style="color: #687fa6;"></i>
+                        Aug 2022 - Present
+                    </h6>
+                    <h6>
+                        <i class="fa-solid fa-location-dot fa-sm" style="color: #687fa6;"></i>
+                        Seattle
                     </h6>
                     <p>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                </div>
+                <div class="content">
+                    <h4 class="title">Office Assistant
+                    </h4>
+                    <h6>
+                        <i class="fa-solid fa-building fa-2xs" style="color: #687fa6;"></i>
+                        HPS Performance Products
+                    </h6>
+                    <h6>
+                        <i class="fa-solid fa-calendar-days fa-sm" style="color: #687fa6;"></i>
+                        December 2018 - July 2022
+                    </h6>
+                    <h6>
+                        <i class="fa-solid fa-location-dot fa-sm" style="color: #687fa6;"></i>
+                        Los Angles
+                    </h6>
+                    <ul>
+                        <li>Use CB18 to created orders from Amazon or our Web</li>
+                        <li>Check return order</li>
+                    </ul>
                 </div>
             </div>
         </div>
 </main>
-<main class="connect">
+<!-- <main class="connect">
     <div class="info">
-        <div class="commen-info">
+        <div class="commen-info"  class="p5-layout">
             <h4>Connect form</h4>
-        <div class="n-layout">
+        <div class="p5-layout">
             <input type="text" placeholder="Name" >
         </div>
-
-        <div class="rows">
+        <div class="p5-layout">
             <input type="text" placeholder="Email">
         </div>
-
-        <div>
+        <div class="p5-layout">
             <input type="text" placeholder="Subject">
         </div>
-        <div >
+        <div class="p5-layout">
             <textarea name="Your massage" id="message" cols="30" rows="10" placeholder="Your massage"></textarea>
         </div>
 
         </div>
-        <div class="Contact">
+        <!--這裡要調整-->
+                        
+        <!-- <div class="Contact" id="Contact">
             <h4>
                 Contact Address
             </h4>
@@ -219,14 +272,15 @@
                 </div>
                 <div class="email">
                     <img src="" alt="Email icon">
-                    <p>email@email.com</p>
+                    <input type="email">Ellenliao95@gmail.com</input>
                 </div>
                 <div class="phone">
                     <img src="" alt="Phone icon">
-                    <p>101-123-4321</p>
+                    <p>626-540-7097</p>
                 </div>
             </div>
         </div>
     </div>
-</main>
+</main> --> -->
+</body>
 </html>
