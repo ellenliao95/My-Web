@@ -1,0 +1,79 @@
+/* head area */
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 70px;
+   
+}
+.top-logo{
+    display: flex;
+    margin: 10px 20px;
+}
+.isMe{
+    width: 50px;
+}
+.top-container{
+    display: flex;
+    margin: auto 0;
+}
+.top-logo h2{
+    color: #669bbc;
+    margin: 12px;
+}
+.top-logo span{
+    color: skyblue;
+    font-weight: 800;
+}
+.top-container li{
+    color: #669bbc;
+    font-weight: 550;
+    padding-right: 20px;
+    list-style: none;
+}
+.top-container a{ 
+    text-decoration: none;
+    color: #669bbc;
+    font-weight: 800;
+}
+.top-container a:hover{
+    padding: 10px;
+    /* font-size: 18px; */
+    background-color: rgba(237, 237, 237, 0.899);
+}
+/* Container area */
+.x-layout{
+    background-color: red;
+    height: 14px;
+}
+h1{
+    margin: 20px 30px;
+    color: rgba(16, 16, 16, 0.817);
+}
+.main-container{
+    padding-top: 40px;
+    margin: 40px;
+    display: flex;
+}
+.container-bg{
+    box-shadow: teal;
+}
+.container{
+    margin-left: 3em;
+}
+.container img{
+    width: 20em;
+    height: 15em; 
+    box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.392);
+    border-radius: 15px;
+}
+.container-layout{
+    cursor: pointer;
+}
